@@ -12,7 +12,7 @@
 | requests               | HTTP 請求              |
 | BeautifulSoup4         | HTML 分析與內容擷取     |
 | re / os / time         | 系統操作與正規表達式處理 |
-| fpdf                   | 將 TXT 轉換為 PDF       |
+| fpdf2                   | 將 TXT 轉換為 PDF       |
 | Noto Sans TC 字型      | 支援繁體中文顯示         |
 | ChatGPT                | 協助除錯與功能優化       |
 
@@ -51,7 +51,7 @@ project_root/
 1. 安裝必要套件：
 
 ```bash
-pip install requests beautifulsoup4 fpdf
+pip install requests beautifulsoup4 fpdf2
 ```
 
 2. 放入字型（建議使用 [Noto Sans TC](https://fonts.google.com/specimen/Noto+Sans+TC)）至 `font/` 資料夾。
